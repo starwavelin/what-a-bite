@@ -57,13 +57,15 @@ export class ItemsService {
         return this.items[id];
     }
 
-    async delete(id: number): Promise<null | void> {
-        const item = await this.find(id);
+    async delete(id: number): Promise<Item | null> {
+        const item: Item = await this.find(id);
 
         if (!item) {
             return null;
         }
 
         delete this.items[id]; // if return this it will give a boolean value
+
+        return item;
     }
 }

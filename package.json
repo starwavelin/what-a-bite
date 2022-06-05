@@ -2,9 +2,9 @@
 	"name": "what-a-bite",
 	"version": "1.0.0",
 	"description": "Build a feature-complete API using Node.js, Express, and TypeScript that lets clients perform data operations on resources that describe a restaurant menu.",
-	"main": "index.js",
+	"main": "app.js",
 	"scripts": {
-		"dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
+		"dev": "ts-node-dev --respawn --pretty --transpile-only src/app.ts",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
