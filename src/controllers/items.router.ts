@@ -1,7 +1,7 @@
 import express, { NextFunction, Request, Response } from 'express';
 import { HttpStatus } from '../common/httpStatusCodes.enum';
-import { Item } from './item.interface';
-import { ItemsService } from './items.service';
+import { Item } from '../models/item.interface';
+import { ItemsService } from '../services/items.service';
 
 export const itemsRoter = express.Router();
 

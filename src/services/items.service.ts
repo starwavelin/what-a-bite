@@ -1,5 +1,5 @@
-import { Items } from './items.interface';
-import { Item, BaseItem } from './item.interface';
+import { Items } from '../models/items.interface';
+import { Item, BaseItem } from '../models/item.interface';
 import * as fs from 'fs';
 import * as path from 'path';
 
